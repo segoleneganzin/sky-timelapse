@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    width: 100%;
+    height: 100%;
+}
+
+/*hearth*/
+.hearth {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    background: radial-gradient(ellipse at bottom, #136E0A 0%, #092F05  100%);
+    border-radius: 100% 100% 0 0;
+    z-index: 99;
+}
+
+/**************************************night**************************************/
+
+/*stars*/
+.stars-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    transform: skew(-5deg, -15deg);
+    filter: drop-shadow(0 0 10px white);
+}
+.star {
+    width: 3px;
+    height: 3px;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    background-color: white;
+    animation: 1s linear 0s infinite reverse shine;
+}
+@keyframes shine {
+    0% {
+        transform: scale(0.4);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.4);
+    }
+}
+
+/*moon*/
+.moon {
+    position: absolute;
+    top: 250px;
+    right: 400px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: grey;
+    filter: drop-shadow(0 0 10px white);
+}
+
+/**************************************day**************************************/
