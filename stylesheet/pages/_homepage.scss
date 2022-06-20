@@ -1,0 +1,79 @@
+/*body*/
+body {
+    background: $sky-background;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*hearth*/
+.hearth {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    background: $hearth-background;
+    border-radius: 100% 100% 0 0;
+    z-index: 99;
+}
+
+/**************************************night**************************************/
+
+/*stars*/
+/*moon*/
+.moon {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: grey;
+    filter: drop-shadow(0 0 10px white);
+    z-index: 2;
+}
+.stars-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+        &__star {
+            $total: 40;
+            width: 5px;
+            height: 5px;
+            border: 0.5px solid white;
+            border-radius: 50%;
+            background-color: white;
+            filter: drop-shadow(0 0 10px white);
+            animation: 2s linear 0s infinite reverse shine;
+            @for $i from 1 through $total {
+                $random-x: random(100000) * 0.0001vw;
+                $random-offset: random_range(-100000, 100000) * 0.0001vw;
+                $random-x-end: $random-x + $random-offset;
+                $random-yoyo-time: random_range(30000, 80000) / 100000;
+                $random-yoyo-y: $random-yoyo-time * 100vh;
+                $random-scale: random(10000) * 0.0001;
+            
+                &:nth-child(#{$i}) {
+                  opacity: random(10000) * 0.0001;
+                  transform: translate($random-x-end, $random-yoyo-y) scale($random-scale);
+                }
+            }
+            @keyframes shine {
+                0% {
+                    filter: drop-shadow(0 0 10px white);
+                }
+                50% {
+                    filter: drop-shadow(0 0 0px white);
+                }
+                100% {
+                    filter: drop-shadow(0 0 10px white);
+                }
+            }
+        }
+    }
+
+
+/**************************************day**************************************/
