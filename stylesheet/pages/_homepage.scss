@@ -1,9 +1,21 @@
 /*body*/
 body {
-    background: $sky-background;
-    width: 100%;
-    height: 100%;
     overflow: hidden;
+    @include sky-background;
+    height: 100vh;
+    margin: 0%;
+    animation: 20s linear infinite sky-color;
+}
+@keyframes sky-color {
+    0% {
+        background: rgb(0,212,255);
+    }
+    50% {
+        background: rgb(2,0,36);
+    }
+    100% {
+        background: rgb(0,212,255);
+    }
 }
 
 /*hearth*/
@@ -18,32 +30,68 @@ body {
     z-index: 99;
 }
 
-/**************************************night**************************************/
-
-/*stars*/
-/*moon*/
-.moon {
+/*moon & sun*/
+.planet-container {
     position: absolute;
-    top: 25%;
-    left: 75%;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-color: grey;
-    filter: drop-shadow(0 0 10px white);
+    top: 90%;
+    left: 0%;
+    width: 120%;
+    height: 100%;
+    animation: 20s infinite linear reverse planet-phase;
     z-index: 2;
+    &__moon {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color: grey;
+        filter: drop-shadow(0 0 10px white);
+    }
+    &__sun {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color: yellow;
+        filter: drop-shadow(0 0 10px white);
+    }
 }
+@keyframes planet-phase {
+    0% { 
+        transform:rotate(0deg); 
+    } 
+    50% { 
+        transform:rotate(180deg); 
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+
+/**************************************night**************************************/
+/*sky*/
+.night {
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+}
+/*stars*/
 .stars-container {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    z-index: -1;
  
         &__star {
             $total: 40;
             width: 5px;
             height: 5px;
-            border: 0.5px solid white;
             border-radius: 50%;
             background-color: white;
             filter: drop-shadow(0 0 10px white);
