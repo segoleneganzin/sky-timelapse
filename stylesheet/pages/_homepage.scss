@@ -8,13 +8,22 @@ body {
 }
 @keyframes sky-color {
     0% {
-        background: rgb(0,212,255);
+        background: rgb(43, 138, 199);
+    }
+    25% {
+        background: rgb(2,0,36);
     }
     50% {
         background: rgb(2,0,36);
     }
-    100% {
+    80% {
         background: rgb(0,212,255);
+    }
+    95% {
+        background: rgb(0,212,255);
+    }
+    100% {
+        background: rgb(43, 138, 199);
     }
 }
 
@@ -64,9 +73,6 @@ body {
     0% { 
         transform:rotate(0deg); 
     } 
-    50% { 
-        transform:rotate(180deg); 
-    }
     100% {
         transform:rotate(360deg);
     }
