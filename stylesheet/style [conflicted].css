@@ -5,7 +5,6 @@ body {
   background: rgb(0, 212, 255);
   background: linear-gradient(90deg, rgb(0, 212, 255) 33%, rgb(9, 9, 121) 66%, rgb(2, 0, 36) 100%);
   height: 100%;
-  width: 100%;
   margin: 0%;
   -webkit-animation: 20s linear infinite sky-color;
           animation: 20s linear infinite sky-color;
@@ -136,164 +135,164 @@ body {
           animation: 20s linear 0s infinite shine;
 }
 .night .stars-container__star:nth-child(1) {
-  opacity: 0.6852;
-  transform: translate(16.3505vw, 77.204vh) scale(0.7639);
+  opacity: 0.2685;
+  transform: translate(-1.5128vw, 70.706vh) scale(0.4676);
 }
 .night .stars-container__star:nth-child(2) {
-  opacity: 0.9039;
-  transform: translate(5.8343vw, 75.971vh) scale(0.5223);
+  opacity: 0.2313;
+  transform: translate(3.3864vw, 77.121vh) scale(0.3587);
 }
 .night .stars-container__star:nth-child(3) {
-  opacity: 0.4813;
-  transform: translate(15.3843vw, 48.822vh) scale(0.5812);
+  opacity: 0.1143;
+  transform: translate(3.2359vw, 71.76vh) scale(0.5703);
 }
 .night .stars-container__star:nth-child(4) {
-  opacity: 0.2619;
-  transform: translate(0.7065vw, 44.469vh) scale(0.2146);
+  opacity: 0.6486;
+  transform: translate(0.7965vw, 45.738vh) scale(0.9778);
 }
 .night .stars-container__star:nth-child(5) {
-  opacity: 0.6561;
-  transform: translate(9.9664vw, 46.319vh) scale(0.6105);
+  opacity: 0.4747;
+  transform: translate(6.6416vw, 46.407vh) scale(0.9672);
 }
 .night .stars-container__star:nth-child(6) {
-  opacity: 0.4449;
-  transform: translate(1.0598vw, 46.241vh) scale(0.0929);
+  opacity: 0.1264;
+  transform: translate(1.9685vw, 38.756vh) scale(0.7249);
 }
 .night .stars-container__star:nth-child(7) {
-  opacity: 0.6118;
-  transform: translate(6.0998vw, 58.563vh) scale(0.4829);
+  opacity: 0.971;
+  transform: translate(3.6287vw, 43.228vh) scale(0.7375);
 }
 .night .stars-container__star:nth-child(8) {
-  opacity: 0.3431;
-  transform: translate(1.4254vw, 75.913vh) scale(0.8038);
+  opacity: 0.1697;
+  transform: translate(7.7419vw, 42.046vh) scale(0.4216);
 }
 .night .stars-container__star:nth-child(9) {
-  opacity: 0.6871;
-  transform: translate(13.759vw, 49.085vh) scale(0.708);
+  opacity: 0.3339;
+  transform: translate(-4.08vw, 58.88vh) scale(0.6974);
 }
 .night .stars-container__star:nth-child(10) {
-  opacity: 0.3823;
-  transform: translate(4.0883vw, 63.435vh) scale(0.7242);
+  opacity: 0.0359;
+  transform: translate(1.6638vw, 46.641vh) scale(0.9637);
 }
 .night .stars-container__star:nth-child(11) {
-  opacity: 0.3035;
-  transform: translate(2.4226vw, 68.248vh) scale(0.844);
+  opacity: 0.1689;
+  transform: translate(7.7417vw, 50.478vh) scale(0.8165);
 }
 .night .stars-container__star:nth-child(12) {
-  opacity: 0.0298;
-  transform: translate(14.6145vw, 53.563vh) scale(0.5933);
+  opacity: 0.9266;
+  transform: translate(-5.6423vw, 44.116vh) scale(0.5739);
 }
 .night .stars-container__star:nth-child(13) {
-  opacity: 0.7147;
-  transform: translate(-2.4757vw, 76.789vh) scale(0.4179);
+  opacity: 0.0275;
+  transform: translate(11.2925vw, 37.064vh) scale(0.3746);
 }
 .night .stars-container__star:nth-child(14) {
-  opacity: 0.2801;
-  transform: translate(-2.1507vw, 31.439vh) scale(0.5433);
+  opacity: 0.6628;
+  transform: translate(11.202vw, 45.86vh) scale(0.6484);
 }
 .night .stars-container__star:nth-child(15) {
-  opacity: 0.7035;
-  transform: translate(3.555vw, 45.274vh) scale(0.818);
+  opacity: 0.1304;
+  transform: translate(10.9162vw, 38.747vh) scale(0.3985);
 }
 .night .stars-container__star:nth-child(16) {
-  opacity: 0.4699;
-  transform: translate(-1.0152vw, 42.197vh) scale(0.6483);
+  opacity: 0.713;
+  transform: translate(0.3374vw, 33.265vh) scale(0.1018);
 }
 .night .stars-container__star:nth-child(17) {
-  opacity: 0.7784;
-  transform: translate(-0.9698vw, 33.11vh) scale(0.9743);
+  opacity: 0.7273;
+  transform: translate(0.9327vw, 38.012vh) scale(0.4737);
 }
 .night .stars-container__star:nth-child(18) {
-  opacity: 0.7996;
-  transform: translate(13.507vw, 59.315vh) scale(0.0242);
+  opacity: 0.9811;
+  transform: translate(8.0472vw, 73.925vh) scale(0.4762);
 }
 .night .stars-container__star:nth-child(19) {
-  opacity: 0.4456;
-  transform: translate(19.6545vw, 67.446vh) scale(0.7458);
+  opacity: 0.2541;
+  transform: translate(4.4496vw, 42.63vh) scale(0.4832);
 }
 .night .stars-container__star:nth-child(20) {
-  opacity: 0.2671;
-  transform: translate(-3.3031vw, 56.498vh) scale(0.9619);
+  opacity: 0.2981;
+  transform: translate(-2.3233vw, 55.776vh) scale(0.5798);
 }
 .night .stars-container__star:nth-child(21) {
-  opacity: 0.5471;
-  transform: translate(-3.6109vw, 33.731vh) scale(0.8541);
+  opacity: 0.5302;
+  transform: translate(4.607vw, 71.687vh) scale(0.4484);
 }
 .night .stars-container__star:nth-child(22) {
-  opacity: 0.981;
-  transform: translate(18.792vw, 49.589vh) scale(0.6063);
+  opacity: 0.0185;
+  transform: translate(-0.9611vw, 55.336vh) scale(0.635);
 }
 .night .stars-container__star:nth-child(23) {
-  opacity: 0.6243;
-  transform: translate(18.2255vw, 40.466vh) scale(0.4466);
+  opacity: 0.0371;
+  transform: translate(15.5992vw, 42.013vh) scale(0.8652);
 }
 .night .stars-container__star:nth-child(24) {
-  opacity: 0.7056;
-  transform: translate(-3.7251vw, 66.903vh) scale(0.585);
+  opacity: 0.7222;
+  transform: translate(10.5829vw, 71.044vh) scale(0.0112);
 }
 .night .stars-container__star:nth-child(25) {
-  opacity: 0.0483;
-  transform: translate(7.1168vw, 66.764vh) scale(0.3487);
+  opacity: 0.5456;
+  transform: translate(3.5719vw, 31.687vh) scale(0.043);
 }
 .night .stars-container__star:nth-child(26) {
-  opacity: 0.5802;
-  transform: translate(3.4741vw, 39.772vh) scale(0.6382);
+  opacity: 0.2932;
+  transform: translate(4.3621vw, 41.906vh) scale(0.6867);
 }
 .night .stars-container__star:nth-child(27) {
-  opacity: 0.759;
-  transform: translate(12.1897vw, 31.847vh) scale(0.5111);
+  opacity: 0.7996;
+  transform: translate(18.6591vw, 40.052vh) scale(0.381);
 }
 .night .stars-container__star:nth-child(28) {
-  opacity: 0.2086;
-  transform: translate(1.8099vw, 46.132vh) scale(0.3975);
+  opacity: 0.1453;
+  transform: translate(5.4701vw, 42.144vh) scale(0.4532);
 }
 .night .stars-container__star:nth-child(29) {
-  opacity: 0.3493;
-  transform: translate(9.6143vw, 67.654vh) scale(0.3254);
+  opacity: 0.5105;
+  transform: translate(3.7815vw, 46.275vh) scale(0.3088);
 }
 .night .stars-container__star:nth-child(30) {
-  opacity: 0.568;
-  transform: translate(14.0895vw, 70.416vh) scale(0.0184);
+  opacity: 0.6392;
+  transform: translate(-1.144vw, 77.655vh) scale(0.7427);
 }
 .night .stars-container__star:nth-child(31) {
-  opacity: 0.2754;
-  transform: translate(-8.9491vw, 48.036vh) scale(0.2039);
+  opacity: 0.8691;
+  transform: translate(8.4049vw, 34.668vh) scale(0.77);
 }
 .night .stars-container__star:nth-child(32) {
-  opacity: 0.2002;
-  transform: translate(2.1579vw, 75.523vh) scale(0.2791);
+  opacity: 0.5035;
+  transform: translate(16.4553vw, 35.169vh) scale(0.6841);
 }
 .night .stars-container__star:nth-child(33) {
-  opacity: 0.5504;
-  transform: translate(4.4vw, 66.126vh) scale(0.7661);
+  opacity: 0.3734;
+  transform: translate(15.5962vw, 72.453vh) scale(0.6502);
 }
 .night .stars-container__star:nth-child(34) {
-  opacity: 0.1002;
-  transform: translate(4.5596vw, 56.515vh) scale(0.2717);
+  opacity: 0.5717;
+  transform: translate(-3.5195vw, 39.068vh) scale(0.0466);
 }
 .night .stars-container__star:nth-child(35) {
-  opacity: 0.4838;
-  transform: translate(11.8512vw, 37.258vh) scale(0.4153);
+  opacity: 0.3188;
+  transform: translate(-1.1791vw, 34.098vh) scale(0.4517);
 }
 .night .stars-container__star:nth-child(36) {
-  opacity: 0.054;
-  transform: translate(7.1016vw, 60.495vh) scale(0.1198);
+  opacity: 0.0265;
+  transform: translate(-5.2983vw, 66.207vh) scale(0.1473);
 }
 .night .stars-container__star:nth-child(37) {
-  opacity: 0.5642;
-  transform: translate(-2.0656vw, 32.737vh) scale(0.9019);
+  opacity: 0.5694;
+  transform: translate(10.4271vw, 31.663vh) scale(0.7986);
 }
 .night .stars-container__star:nth-child(38) {
-  opacity: 0.8454;
-  transform: translate(16.3943vw, 48.595vh) scale(0.506);
+  opacity: 0.424;
+  transform: translate(10.4244vw, 71.276vh) scale(0.9553);
 }
 .night .stars-container__star:nth-child(39) {
-  opacity: 0.0977;
-  transform: translate(8.7111vw, 51.094vh) scale(0.8829);
+  opacity: 0.7572;
+  transform: translate(4.9289vw, 77.683vh) scale(0.2603);
 }
 .night .stars-container__star:nth-child(40) {
-  opacity: 0.2311;
-  transform: translate(12.1247vw, 51.931vh) scale(0.4347);
+  opacity: 0.219;
+  transform: translate(2.7303vw, 36.104vh) scale(0.0746);
 }
 @-webkit-keyframes shine {
   0% {
@@ -339,7 +338,7 @@ body {
   display: flex;
   position: absolute;
   top: 20%;
-  height: 80%;
+  height: 100%;
   width: 100%;
   flex-direction: row;
   justify-content: space-evenly;
@@ -435,15 +434,13 @@ body {
 
 /*responsive - media-queries*/
 @media screen and (max-width: 1440px) {
-  html {
-    overflow: hidden;
-  }
-
-  body {
-    box-sizing: content-box;
-  }
-
   .planet-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .planet-container__sun {
     position: absolute;
     left: 50%;
     bottom: 0%;
@@ -452,10 +449,6 @@ body {
     border-radius: 100%;
     -webkit-animation: 20s infinite linear planet-phase;
             animation: 20s infinite linear planet-phase;
-    overflow: hidden;
-  }
-  .planet-container__sun {
-    display: none;
   }
   .planet-container__moon {
     display: none;
@@ -464,69 +457,64 @@ body {
   @-webkit-keyframes planet-phase {
     0% {
       transform: translate(0%, 0%);
+      background-color: yellow;
+      filter: drop-shadow(0 0 10px white);
     }
     25% {
-      transform: translate(0%, -400%);
-      background-color: grey;
+      transform: translate(0%, 150%);
+      background-color: yellow;
       filter: drop-shadow(0 0 10px white);
-      z-index: 2;
     }
     50% {
-      transform: translate(0%, 25%);
-      background-color: grey;
+      transform: translate(0%, 50%);
+      background-color: yellow;
       filter: drop-shadow(0 0 10px white);
-      z-index: 2;
     }
     55% {
-      background-color: yellow;
+      background-color: grey;
       filter: drop-shadow(0 0 10px white);
-      z-index: -1;
     }
     75% {
-      transform: translate(0%, -400%);
-      z-index: -1;
+      transform: translate(0%, 100%);
+      background-color: grey;
+      filter: drop-shadow(0 0 10px white);
     }
     100% {
-      transform: translate(0%, 10%);
-      background-color: yellow;
+      transform: translate(0%, 50%);
+      background-color: grey;
       filter: drop-shadow(0 0 10px white);
-      z-index: -1;
     }
   }
 
   @keyframes planet-phase {
     0% {
       transform: translate(0%, 0%);
+      background-color: yellow;
+      filter: drop-shadow(0 0 10px white);
     }
     25% {
-      transform: translate(0%, -400%);
-      background-color: grey;
+      transform: translate(0%, 150%);
+      background-color: yellow;
       filter: drop-shadow(0 0 10px white);
-      z-index: 2;
     }
     50% {
-      transform: translate(0%, 25%);
-      background-color: grey;
+      transform: translate(0%, 50%);
+      background-color: yellow;
       filter: drop-shadow(0 0 10px white);
-      z-index: 2;
     }
     55% {
-      background-color: yellow;
+      background-color: grey;
       filter: drop-shadow(0 0 10px white);
-      z-index: -1;
     }
     75% {
-      transform: translate(0%, -400%);
-      z-index: -1;
+      transform: translate(0%, 100%);
+      background-color: grey;
+      filter: drop-shadow(0 0 10px white);
     }
     100% {
-      transform: translate(0%, 10%);
-      background-color: yellow;
+      transform: translate(0%, 50%);
+      background-color: grey;
       filter: drop-shadow(0 0 10px white);
-      z-index: -1;
     }
-  }
-  .day {
-    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

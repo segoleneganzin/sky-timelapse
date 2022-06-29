@@ -3,7 +3,6 @@ body {
     overflow: hidden;
     @include sky-background;
     height: 100%;
-    width: 100%;
     margin: 0%;
     animation: 20s linear infinite sky-color;
 }
@@ -143,7 +142,7 @@ body {
         display: flex;
         position: absolute;
         top: 20%;
-        height: 80%;
+        height: 100%;
         width: 100%;
         flex-direction: row;
         justify-content: space-evenly;
@@ -212,23 +211,19 @@ body {
 
 /*responsive - media-queries*/
 @media screen and (max-width: 1440px) {
-    html {
-        overflow: hidden;
-    }
-    body {
-        box-sizing: content-box;
-    }
     .planet-container {
         position: absolute;
-        left: 50%;
-        bottom: 0%;
-        width: 150px;
-        height: 150px;
-        border-radius: 100%;        
-        animation: 20s infinite linear planet-phase;
-        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
         &__sun {
-            display: none;
+            position: absolute;
+            left: 50%;
+            bottom: 0%;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;        
+            animation: 20s infinite linear  planet-phase;
         }
         &__moon {
             display: none;
@@ -237,36 +232,33 @@ body {
     @keyframes planet-phase {
     0% { 
         transform: translate(0%, 0%);
+        background-color: yellow;
+        filter: drop-shadow(0 0 10px white);
     } 
     25% {
-        transform: translate(0%, -400%); 
-        background-color: grey;
+        transform: translate(0%, 150%); 
+        background-color: yellow;
         filter: drop-shadow(0 0 10px white);
-        z-index: 2;
     }
     50% {
-        transform: translate(0%, 25%); 
-        background-color: grey;
+        transform: translate(0%, 50%); 
+    background-color: yellow;
         filter: drop-shadow(0 0 10px white);
-        z-index: 2;       
+        
     }
     55% {
-        background-color: yellow;
-        filter: drop-shadow(0 0 10px white);
-        z-index: -1;
+    background-color: grey;
+    filter: drop-shadow(0 0 10px white);
     }
     75% {
-    transform: translate(0%, -400%);
-    z-index: -1;
+    transform: translate(0%, 100%);
+    background-color: grey;
+    filter: drop-shadow(0 0 10px white);
     }
     100% {
-        transform: translate(0%, 10%);
-        background-color: yellow;
+        transform: translate(0%, 50%);
+        background-color: grey;
         filter: drop-shadow(0 0 10px white);
-        z-index: -1;
     }
-    }
-    .day {
-        display: none;
     }
 }
