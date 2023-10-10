@@ -1,0 +1,96 @@
+/* clouds */
+.clouds-container {
+  display: flex;
+  position: absolute;
+  top: 20%;
+  height: 80%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: -1;
+  animation: 20s linear 0s infinite running scroll-cloud;
+  &__cloud {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: white;
+    border-radius: 100% 100% 0 0;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      z-index: -1;
+      background-color: white;
+      border-radius: 100%;
+      /*la taille pour l'oreille gauche du nuage*/
+      width: 125px;
+      height: 125px;
+      left: -80px;
+      border-bottom-right-radius: 0;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      z-index: -1;
+      background-color: white;
+      border-radius: 100%;
+      /*la taille pour l'oreille droite*/
+      width: 80px;
+      height: 80px;
+      right: -60px;
+      border-bottom-left-radius: 0;
+    }
+  }
+  @keyframes scroll-cloud {
+    0% {
+      transform: translate3d(120%, 0, 0); /* position initiale à droite */
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+    }
+    75% {
+      transform: translate3d(110%, 0, 0); /* position initiale à droite */
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translate3d(-100%, 0, 0); /* position finale à gauche */
+      opacity: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  /*clouds*/
+  .clouds-container {
+    left: 0%;
+    overflow: hidden;
+  }
+  @keyframes scroll-cloud {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}

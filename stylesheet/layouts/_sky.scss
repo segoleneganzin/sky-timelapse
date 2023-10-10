@@ -1,0 +1,30 @@
+/*sky*/
+.sky {
+  overflow: hidden;
+  @include sky-background;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  animation: 20s linear infinite sky-color;
+}
+
+@keyframes sky-color {
+  0% {
+    background: rgb(43, 138, 199);
+  }
+  25% {
+    background: rgb(2, 0, 36);
+  }
+  50% {
+    background: rgb(2, 0, 36);
+  }
+  80% {
+    background: rgb(0, 212, 255);
+  }
+  95% {
+    background: rgb(0, 212, 255);
+  }
+  100% {
+    background: rgb(43, 138, 199);
+  }
+}
