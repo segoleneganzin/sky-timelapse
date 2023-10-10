@@ -1,0 +1,48 @@
+/*stars*/
+.stars-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+  &__star {
+    $total: 40;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    filter: drop-shadow(0 0 10px white);
+    animation: 20s linear 0s infinite shine;
+    @for $i from 1 through $total {
+      $random-x: random(100000) * 0.0001vw;
+      $random-offset: random_range(-100000, 100000) * 0.0001vw;
+      $random-x-end: $random-x + $random-offset;
+      $random-yoyo-time: calc(random_range(30000, 80000) / 100000);
+      $random-yoyo-y: $random-yoyo-time * 100vh;
+      $random-scale: random(10000) * 0.0001;
+
+      &:nth-child(#{$i}) {
+        opacity: random(10000) * 0.0001;
+        transform: translate($random-x-end, $random-yoyo-y)
+          scale($random-scale);
+      }
+    }
+    @keyframes shine {
+      0% {
+        opacity: 0;
+      }
+      15% {
+        opacity: 0.5;
+      }
+      50% {
+        opacity: 1;
+      }
+      60% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  }
+}

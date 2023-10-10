@@ -1,8 +1,15 @@
-
 @import "./utils/variables";
 @import "./utils/functions";
 @import "./utils/mixins";
+
 @import "./base/base";
+
 @import "./components/components";
-@import "./layouts/layouts";
+
+@import "./layouts/sky";
+@import "./layouts/stars";
+@import "./layouts/clouds";
+@import "./layouts/planets";
+@import "./layouts/hearth";
+
 @import "./pages/homepage";
